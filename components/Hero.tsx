@@ -8,11 +8,12 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat transform scale-105 animate-[kenburns_20s_ease-out_infinite_alternate]"
         style={{
-          backgroundImage: 'url("https://picsum.photos/seed/coffee_friends/1920/1080")', 
+          // Warm, inviting coffee shop interior with soft lighting
+          backgroundImage: 'url("https://images.unsplash.com/photo-1507133750069-b6d338dd043e?q=80&w=2572&auto=format&fit=crop")', 
         }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-stone-900/30"></div>
+        <div className="absolute inset-0 bg-stone-900/40"></div>
       </div>
 
       {/* Content */}

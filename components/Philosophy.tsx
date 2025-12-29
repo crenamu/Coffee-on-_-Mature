@@ -10,7 +10,7 @@ const Philosophy: React.FC = () => {
           <div className="w-full md:w-1/2">
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
               <img 
-                src="https://picsum.photos/seed/coffee_book/800/1000" 
+                src="https://images.unsplash.com/photo-1498955472675-532cdee9d6b4?q=80&w=2540&auto=format&fit=crop" 
                 alt="Slow living with coffee" 
                 className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700 ease-in-out"
               />
@@ -36,7 +36,7 @@ const Philosophy: React.FC = () => {
           <div className="w-full md:w-1/2">
             <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
                <img 
-                src="https://picsum.photos/seed/coffee_talk/1000/800" 
+                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2532&auto=format&fit=crop" 
                 alt="Community conversation" 
                 className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700 ease-in-out"
               />

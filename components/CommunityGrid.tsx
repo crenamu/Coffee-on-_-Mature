@@ -1,9 +1,9 @@
 import React from 'react';
 
 const moments = [
-  { id: 1, title: '일요일 아침의 독서', img: 'https://picsum.photos/seed/reading/600/600' },
-  { id: 2, title: '푸어오버의 미학', img: 'https://picsum.photos/seed/pour/600/600' },
-  { id: 3, title: '지역 아티스트 쇼케이스', img: 'https://picsum.photos/seed/art/600/600' },
+  { id: 1, title: '일요일 아침의 독서', img: 'https://images.unsplash.com/photo-1515548321040-02206772714a?q=80&w=2000&auto=format&fit=crop' },
+  { id: 2, title: '푸어오버의 미학', img: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=2000&auto=format&fit=crop' },
+  { id: 3, title: '지역 아티스트 쇼케이스', img: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=2000&auto=format&fit=crop' },
 ];
 
 const CommunityGrid: React.FC = () => {
