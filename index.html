@@ -31,6 +31,20 @@
                 medium: '#967E76',
                 dark: '#3C2A21'
               }
+            },
+            keyframes: {
+              kenburns: {
+                '0%': { transform: 'scale(1)' },
+                '100%': { transform: 'scale(1.1)' },
+              },
+              'fade-in-up': {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            },
+            animation: {
+              kenburns: 'kenburns 20s ease-out infinite alternate',
+              'fade-in-up': 'fade-in-up 0.8s ease-out forwards',
             }
           },
         },
